@@ -1,16 +1,27 @@
-# React + Vite
+# Plataforma de Gestión de Eventos Académicos - UC
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación web moderna desarrollada en React para la gestión de eventos académicos, conferencias, talleres y seminarios dirigida a estudiantes y docentes de la Universidad Continental.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologías Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* **Frontend:** React (inicializado con Vite)
+* **Enrutamiento:** React Router Dom
+* **Estilos y UI:** Material UI (MUI)
+* **Cliente HTTP:** Axios
+* **Testing:** Vitest y React Testing Library
+* **Control de Versiones:** Git & GitHub
 
-## React Compiler
+## 🛠️ Características del Sistema
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Gestión de Eventos:** Registro, visualización, búsqueda en tiempo real y simulación de eliminación de eventos académicos.
+* **Gestión de Participantes:** Formulario de inscripción de estudiantes/docentes y consulta dinámica mediante tablas estructuadas.
+* **Integración API REST:** Arquitectura desacoplada mediante una capa de servicios asíncronos con Axios conectada a un servidor REST (JSONPlaceholder).
+* **Calidad de Código:** Cobertura de pruebas unitarias y funcionales automatizadas para asegurar el correcto renderizado del DOM.
 
-## Expanding the ESLint configuration
+## 📦 Instalación y Ejecución Local
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Para levantar el proyecto en tu entorno local, sigue estos pasos:
+
+1. Clonar el repositorio:
+   ```bash
+   git clone [https://github.com/alexein-qr/PRODUCTO-FINAL---DESARROLLO-WEB-QUINTANA_ROSALES_J.git](https://github.com/alexein-qr/PRODUCTO-FINAL---DESARROLLO-WEB-QUINTANA_ROSALES_J.git)
