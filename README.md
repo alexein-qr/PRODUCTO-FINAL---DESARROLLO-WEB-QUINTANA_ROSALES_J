@@ -25,3 +25,26 @@ Para levantar el proyecto en tu entorno local, sigue estos pasos:
 1. Clonar el repositorio:
    ```bash
    git clone [https://github.com/alexein-qr/PRODUCTO-FINAL---DESARROLLO-WEB-QUINTANA_ROSALES_J.git](https://github.com/alexein-qr/PRODUCTO-FINAL---DESARROLLO-WEB-QUINTANA_ROSALES_J.git)
+
+Instalar las dependencias del proyecto:
+
+   ```bash
+   npm install
+
+Iniciar el servidor de desarrollo en vivo:
+
+  ```bash
+   npm run dev
+
+Ejecutar las pruebas automatizadas:
+
+  ```bash
+   npx vitest
+
+🧪 Estrategia de Pruebas (Testing)
+
+El proyecto cuenta con un entorno configurado con Vitest y React Testing Library ejecutable bajo el entorno simulado jsdom. La suite de pruebas valida el correcto montaje de los componentes globales de la Single Page Application (SPA) y la barra de navegación.
+
+📝 Nota sobre la Persistencia de Datos
+
+Las operaciones de escritura (POST) y borrado (DELETE) se realizan de manera asíncrona hacia una API REST simulada (stateless). La consistencia y persistencia visual de los datos modificados se gestiona de forma dinámica en la interfaz mediante el manejo reactivo del estado local de React.
