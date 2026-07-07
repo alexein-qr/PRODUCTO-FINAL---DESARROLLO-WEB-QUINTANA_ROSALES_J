@@ -24,21 +24,18 @@ Para levantar el proyecto en tu entorno local, sigue estos pasos:
 
 1. Clonar el repositorio:
    ```bash
-   git clone [https://github.com/alexein-qr/PRODUCTO-FINAL---DESARROLLO-WEB-QUINTANA_ROSALES_J.git](https://github.com/alexein-qr/PRODUCTO-FINAL---DESARROLLO-WEB-QUINTANA_ROSALES_J.git)
+   git clone https://github.com/alexein-qr/PRODUCTO-FINAL---DESARROLLO-WEB-QUINTANA_ROSALES_J.git
 
-Instalar las dependencias del proyecto:
-
+2. Instalar las dependencias del proyecto:
    ```bash
    npm install
 
-Iniciar el servidor de desarrollo en vivo:
-
-  ```bash
+3. Iniciar el servidor de desarrollo en vivo:
+   ```bash
    npm run dev
 
-Ejecutar las pruebas automatizadas:
-
-  ```bash
+4. Ejecutar las pruebas automatizadas:
+   ```bash
    npx vitest
 
 🧪 Estrategia de Pruebas (Testing)
