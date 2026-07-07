@@ -10,8 +10,8 @@ const eventosDisponibles = [
 function Participants() {
   // Lista ficticia de participantes ya inscritos
   const [participantes, setParticipantes] = useState([
-    { id: 1, nombre: "Joan Quintana", correo: "joan.quintana@continental.edu.pe", evento: "Congreso de IA y Robótica 2026" },
-    { id: 2, nombre: "Ana Martínez", correo: "ana.martinez@continental.edu.pe", evento: "Taller de Desarrollo Web Avanzado" }
+    { id: 1, nombre: "Joan Quintana", correo: "73436555@continental.edu.pe", evento: "Taller de Desarrollo Web Avanzado" },
+    { id: 2, nombre: "Brayham Rosales", correo: "60105101@continental.edu.pe", evento: "Congreso de IA y Robótica 2026" }
   ]);
 
   const [formData, setFormData] = useState({
